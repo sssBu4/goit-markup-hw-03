@@ -317,13 +317,15 @@ nav ul li a:focus {
     color: #2e2f42;
 }
 
-.footer > .container > .logo {
+.footer > .container-footer > .logo {
     margin-bottom: 16px;
 }
 
-.footer > .container {
-    align-items: flex-start;
-    flex-direction: column;
+.container-footer {
+    width: 1158px;
+    margin: 0 auto;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
 .footer-logo {
@@ -340,7 +342,5 @@ nav ul li a:focus {
 .footer {
     background-color: #2E2F42;
     padding: 100px 0;
-    flex-direction: column;
-    gap: 16px;
 }
 
