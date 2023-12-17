@@ -63,7 +63,8 @@ ul {
     align-items: center;
     justify-content: space-between;
     margin: 0 auto;
-    padding: 0 15px;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
 .nav {
@@ -78,7 +79,7 @@ ul {
     padding: 0;
 }
 
-.nav > .menu > .menu-list {
+.menu-list {
     padding: 24px 0 24px;
 }
 
@@ -187,11 +188,17 @@ ul {
     padding: 0;
 }
 
-.container > .title {
-    margin: 0;
+ .visually-hidden {
+    margin: -1px;
     padding: 0;
-    visibility:hidden;
-    justify-content:center;
+    height: 1px;
+    width: 1px;
+    border: 0;
+    position: absolute;
+    white-space: nowrap;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    clip-path: inset(100%);
 }
 
 .address-menu {
@@ -251,7 +258,7 @@ button:focus {
     flex-direction: column;
 }
 
-nav ul li>a {
+nav ul li > a {
     color: #2e2f42;
 }
 
