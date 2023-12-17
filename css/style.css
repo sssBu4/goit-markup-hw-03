@@ -32,6 +32,7 @@ h3 {
 
 a {
     text-decoration: none;
+    display: inline-block;
 }
 
 p {
@@ -73,11 +74,12 @@ header {
 .menu {
     display: flex;
     gap: 40px;
+    margin: 0;
     padding: 0;
 }
 
 .menu-list {
-    padding: 24px 0;
+    padding: 24px 0 24px;
 }
 
 
@@ -285,7 +287,7 @@ nav ul li a:focus {
 .container-team > .branch {
     padding: 8px 32px 16px 32px;
     display: flex;
-    align-items: center;
+    text-align: center;
 }
 
 .active-menu {
