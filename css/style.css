@@ -51,7 +51,7 @@ ul {
     list-style:none;
 }
 
-header {
+.header {
     display: flex;
     border-bottom: 1px solid #e7e9fc;
 }
@@ -78,7 +78,7 @@ header {
     padding: 0;
 }
 
-.menu-list {
+.nav > .menu > .menu-list {
     padding: 24px 0 24px;
 }
 
@@ -187,7 +187,7 @@ header {
     padding: 0;
 }
 
-.title {
+.container > .title {
     margin: 0;
     padding: 0;
     visibility:hidden;
