@@ -52,8 +52,8 @@ ul {
 }
 
 .header {
-    display: flex;
     border-bottom: 1px solid #e7e9fc;
+    padding: 24px 0 24px;
 }
 
 .container {
@@ -327,7 +327,6 @@ nav ul li a:focus {
 }
 
 .footer > .container {
-    display: flex;
     align-items: flex-start;
     flex-direction: column;
 }
@@ -350,7 +349,6 @@ nav ul li a:focus {
     background-color: #2E2F42;
     padding: 100px 0;
     flex-direction: column;
-    display: flex;
     gap: 16px;
 }
 
