@@ -79,10 +79,6 @@ ul {
     padding: 0;
 }
 
-.menu-list {
-    padding: 24px 0 24px;
-}
-
 
 .main-title {
     line-height: 1.07;
@@ -322,7 +318,6 @@ nav ul li a:focus {
 }
 
 .footer > .container > .logo {
-    display: inline-block;
     margin-bottom: 16px;
 }
 
