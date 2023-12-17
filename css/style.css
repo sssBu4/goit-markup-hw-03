@@ -56,8 +56,11 @@ ul {
     padding: 24px 0 24px;
 }
 
-.container {
+.header > .container {
     display: flex;
+}
+
+.container {
     width: 1158px;
     flex-direction: row;
     align-items: center;
@@ -317,11 +320,11 @@ nav ul li a:focus {
     color: #2e2f42;
 }
 
-.footer > .container-footer > .logo {
+.footer > .container > .logo {
     margin-bottom: 16px;
 }
 
-.container-footer {
+.footer > .container {
     width: 1158px;
     margin: 0 auto;
     padding-right: 15px;
